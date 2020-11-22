@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="美国总统大选:"
+        android:textSize="24dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:text="最后一场辩论的四大看点"
+        android:textSize="22dp"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/img_1"></ImageView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="2dp"
+        android:text="                                                                    美国现任总统特朗普和其竞选对手拜登将在美国时间周四（10月22日）晚再度同台，进行大选前最后一场电视辩论。
+对于特朗普来说，他被确诊新冠肺炎导致上周第二次辩论取消，他目前在民调中落后，最后一次辩论是一个扭转颓势的机会。而拜登将努力保持自己的领先地位，避免任何失态或口误。"
+        android:textSize="20dp"></TextView>
+
+
+</RelativeLayout>
